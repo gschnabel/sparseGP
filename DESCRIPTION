@@ -1,0 +1,18 @@
+Package: sparseGP
+Version: 0.1.0
+Date: 2019-01-22
+Title: sparseGP: Sparse Gaussian Process Regression
+Authors@R: c(person("Georg", "Schnabel", role = c("aut", "cre"),
+		     email = "georg.schnabel@nucleardata.com"))
+Author: Georg Schnabel [aut, cre],
+Maintainer: Georg Schnabel <georg.schnabel@nucleardata.com>
+Depends:
+    R (>= 3.1.0)
+Description: This package implements sparse Gaussian process regression 
+    (FITC approximation) and permits the automatic adjustment of both 
+    hyperparameters and induction points via marginal likelihood optimization.
+License: GPL (>= 3)
+URL: https://www.r-project.org, https://github.com/gschnabel/sparseGP
+BugReports: https://github.com/gschnabel/sparseGP/issues
+Imports: Rcpp (>= 0.12.11)
+LinkingTo: Rcpp, RcppArmadillo

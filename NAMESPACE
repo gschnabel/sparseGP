@@ -1,0 +1,3 @@
+useDynLib(sparseGP)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
